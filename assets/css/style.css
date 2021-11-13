@@ -1,13 +1,37 @@
 body {
-    background-color:lightblue;
+    background-color: lightblue;
+    height: 100%;
+
 }
-#navbar-menu  {
+
+#navbar-menu {
     float: right;
     text-align: right;
-    }
+    z-index: 1;
 
+}
 
+#top-bg-image-wrapper {
+    height: 650px;
+    width: 100%;
+    background-color: #EEE8AA;
 
+}
 
+#top-bg-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/img-ragnar.jpg") no-repeat center center;
+    background-color: lightcoral;
+    background-size: cover;
+    position: relative;
 
+}
 
+#top-bg-image-wrapper h1 {
+    font-size: 80px;
+    padding: 0px 10px;
+    bottom: 70px;
+    position: absolute;
+
+}
