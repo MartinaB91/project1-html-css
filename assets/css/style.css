@@ -12,9 +12,9 @@ body {
 }
 
 #top-bg-image-wrapper {
-    height: 650px;
+    height: 1000px;
     width: 100%;
-    background-color: #EEE8AA;
+    background-color: lightyellow;
 
 }
 
@@ -28,10 +28,67 @@ body {
 
 }
 
-#top-bg-image-wrapper h1 {
+#top-bg-image-wrapper > h1 {
     font-size: 80px;
     padding: 0px 10px;
     bottom: 70px;
     position: absolute;
 
 }
+
+/* Photo wall */
+#photo-wall-wrapper {
+    width: 100%;
+    height: 1300px;
+    background-color: lightgrey;
+    position: relative;
+
+}
+
+#photo-wall-wrapper img {
+    position: absolute;
+    border: 9px solid white;
+    background-color: white; /*For fixing the space between border and img*/
+
+}
+
+#pic-one {
+    width: 400px;
+    height: 600px;
+    top: -200px;
+    left: 20%;
+    
+}
+
+#pic-two {
+    width: 400px;
+    height: 600px;
+    bottom: 20%;
+    right: 10%;
+   
+}
+
+#pic-three {
+    width: auto;
+    height: 400px;
+    bottom: 47%;
+    right: 30%;
+    
+}
+
+#pic-four {
+    width: 400px;
+    height: auto;
+    top: -60px;
+    right: 20%;
+   
+}
+
+#pic-five {
+    width: 400px;
+    height: auto;
+    bottom: 30%;
+    left: 20%;
+    
+}
+
