@@ -39,7 +39,7 @@ body {
 /* Photo wall */
 #photo-wall-wrapper {
     width: 100%;
-    height: 1300px;
+    height: 800px;
     background-color: lightgrey;
     position: relative;
 
@@ -55,7 +55,7 @@ body {
 #pic-one {
     width: 400px;
     height: 600px;
-    top: -200px;
+    top: -30%;
     left: 20%;
     
 }
@@ -63,23 +63,23 @@ body {
 #pic-two {
     width: 400px;
     height: 600px;
-    bottom: 20%;
-    right: 10%;
+    bottom: 3%;
+    right: 5%;
    
 }
 
 #pic-three {
     width: auto;
     height: 400px;
-    bottom: 47%;
-    right: 30%;
-    
+    bottom: 25%;
+    right: 35%;
+
 }
 
 #pic-four {
     width: 400px;
     height: auto;
-    top: -60px;
+    top: -10%; 
     right: 20%;
    
 }
@@ -87,8 +87,24 @@ body {
 #pic-five {
     width: 400px;
     height: auto;
-    bottom: 30%;
-    left: 20%;
+    bottom: -18%;
+    left: 41%;
     
 }
 
+/* Timeline styling */
+#timeline {
+    background-color: lightpink;
+}
+
+/* Not checked radio button should show no text */
+/* Sibling selector used to only target desired content */
+/* Inspiration from https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75*/
+.timeline-radio-button ~ .timeline-text {
+    display: none;
+}
+
+/* When button is checked the text will be visible*/
+.timeline-radio-button:checked ~ .timeline-text {
+    display: block;
+}
