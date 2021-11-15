@@ -1,7 +1,12 @@
 body {
     background-color: lightblue;
+
     height: 100%;
 
+}
+
+h1, h2 {
+    text-transform: capitalize;
 }
 
 #navbar-menu {
@@ -14,7 +19,6 @@ body {
 #top-bg-image-wrapper {
     height: 1000px;
     width: 100%;
-    background-color: lightyellow;
 
 }
 
@@ -28,10 +32,9 @@ body {
 
 }
 
-#top-bg-image-wrapper > h1 {
+#top-bg-image-wrapper h1 {
     font-size: 80px;
     padding: 0px 10px;
-    bottom: 70px;
     position: absolute;
 
 }
@@ -51,7 +54,9 @@ body {
     background-color: white; /*For fixing the space between border and img*/
 
 }
-
+#photo-wall-wrapper {
+    padding: 15px;
+}
 #pic-one {
     width: 400px;
     height: 600px;
@@ -94,17 +99,56 @@ body {
 
 /* Timeline styling */
 #timeline {
-    background-color: lightpink;
+    background-color: white;
+    height: 1000px;
+    width: auto;
+
+}
+#timeline h2 {
+    padding-bottom: 120px;
+}
+
+.timeline-buttons {
+    padding: 20px;
 }
 
 /* Not checked radio button should show no text */
 /* Sibling selector used to only target desired content */
 /* Inspiration from https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75*/
-.timeline-radio-button ~ .timeline-text {
+.timeline-radio-button ~ .timeline-text-wrapper {
     display: none;
 }
 
 /* When button is checked the text will be visible*/
-.timeline-radio-button:checked ~ .timeline-text {
+.timeline-radio-button:checked ~ .timeline-text-wrapper {
     display: block;
 }
+
+/* I use this poistion to hide the radio button and instead only use the label as button */
+.timeline-radio-button {
+    position: fixed; 
+
+}
+
+.timeline-text {
+    text-align: justify;
+
+}
+.timeline-text-wrapper {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.timeline-radio-button:checked ~ label {
+    border-bottom: 3px solid black;
+    padding-right: 5px;
+      
+}
+/* To show the user that you can click on the radio btn label 
+ https://www.w3schools.com/cssref/pr_class_cursor.asp */
+.timeline-radio-button ~ label {
+   cursor: pointer;
+
+}
+
+
