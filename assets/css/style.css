@@ -1,12 +1,17 @@
-body {
-    background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@300&display=swap');
 
-    height: 100%;
+body {
+font-family: "Josefin Sans", sans-serif;
+font-weight: 300;
+height: 100%;
+color: #2F2D32;
 
 }
 
 h1, h2 {
+    font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
+    font-weight: 400;
 }
 
 #navbar-menu {
@@ -19,6 +24,7 @@ h1, h2 {
 #top-bg-image-wrapper {
     height: 1000px;
     width: 100%;
+    background-color: white;
 
 }
 
@@ -26,7 +32,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url("../images/img-ragnar.jpg") no-repeat center center;
-    background-color: lightcoral;
+    background-color: #D2C5B1;
     background-size: cover;
     position: relative;
 
@@ -43,7 +49,7 @@ h1, h2 {
 #photo-wall-wrapper {
     width: 100%;
     height: 800px;
-    background-color: lightgrey;
+    background-color: #F5C8B3;
     position: relative;
 
 }
@@ -132,12 +138,18 @@ h1, h2 {
 
 .timeline-text {
     text-align: justify;
+    display: inline;
 
 }
 
 .timeline-text-wrapper {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.timeline-text-wrapper i {
+    font-size: 130%;
+
 }
 
 .timeline-radio-button:checked ~ label {
@@ -154,11 +166,16 @@ h1, h2 {
 
 /* Footer */
 footer {
-    height: 100px;
-    background-color: lightcyan;
+    height: 150px;
+    background-color: #E9F1E3;
+
+}
+footer h6 {
+    text-align: center;
+    padding-top: 20px;
 }
 .social-networks {
-    text-align: right;
+    text-align: center;
     padding: 2%;
  
 }
@@ -166,11 +183,15 @@ footer {
 .social-networks li {
     display: inline;
     margin: 2%;
-    padding: 2%;
     
 }
 
 .social-networks i {
-    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color:black;
     font-size: 150%;
+    padding: 8px; 
 }
+
+
