@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@300&display=swap');
 
+
 body {
 font-family: "Josefin Sans", sans-serif;
 font-weight: 300;
@@ -14,17 +15,29 @@ h1, h2 {
     font-weight: 400;
 }
 
+/* Changes to Bootstrap navbar */
 #navbar-menu {
     float: right;
     text-align: right;
     z-index: 1;
-
+    font-size: 30px;
+   
+}
+#navbar-menu li a {
+    color: white;
+    padding: 10px;
 }
 
+.navbar-toggler {
+    background-color: white;
+}
+
+/* Main picture */
 #top-bg-image-wrapper {
     height: 1000px;
     width: 100%;
     background-color: white;
+    position: relative;
 
 }
 
@@ -40,8 +53,7 @@ h1, h2 {
 
 #top-bg-image-wrapper h1 {
     font-size: 80px;
-    padding: 0px 10px;
-    position: absolute;
+    padding: 0px 20px;
 
 }
 
@@ -54,29 +66,32 @@ h1, h2 {
 
 }
 
+#photo-wall-wrapper h2 {
+   padding: 30px;
+   border-bottom: 2px solid #2F2D32;
+}
+
 #photo-wall-wrapper img {
     position: absolute;
     border: 9px solid white;
     background-color: white; /*For fixing the space between border and img*/
 
 }
-#photo-wall-wrapper {
-    padding: 15px;
-}
+
 #pic-one {
     width: 400px;
-    height: 600px;
+    height: auto;
     top: -30%;
     left: 20%;
-    
+
 }
 
 #pic-two {
     width: 400px;
     height: 600px;
-    bottom: 3%;
-    right: 5%;
-   
+    bottom: 2%;
+    right: 3%;
+
 }
 
 #pic-three {
@@ -90,9 +105,9 @@ h1, h2 {
 #pic-four {
     width: 400px;
     height: auto;
-    top: -10%; 
+    top: -10%;
     right: 20%;
-   
+
 }
 
 #pic-five {
@@ -100,22 +115,26 @@ h1, h2 {
     height: auto;
     bottom: -18%;
     left: 41%;
-    
+
 }
 
 /* Timeline styling */
 #timeline {
     background-color: white;
-    height: 1000px;
-    width: auto;
+    height: auto;
+    width: 100%;
+    padding: 0 10%;
 
 }
-#timeline h2 {
+
+#timeline  h2 {
     padding-bottom: 120px;
+
 }
 
 .timeline-buttons {
     padding: 20px;
+
 }
 
 /* Not checked radio button should show no text */
@@ -132,7 +151,7 @@ h1, h2 {
 
 /* I use this poistion to hide the radio button and instead only use the label as button */
 .timeline-radio-button {
-    position: fixed; 
+    position: fixed;
 
 }
 
@@ -145,6 +164,7 @@ h1, h2 {
 .timeline-text-wrapper {
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 .timeline-text-wrapper i {
@@ -155,13 +175,16 @@ h1, h2 {
 .timeline-radio-button:checked ~ label {
     border-bottom: 3px solid black;
     padding-right: 5px;
-      
+
 }
-/* To show the user that you can click on the radio btn label 
+/* To show the user that you can click on the radio btn label
  https://www.w3schools.com/cssref/pr_class_cursor.asp */
 .timeline-radio-button ~ label {
    cursor: pointer;
 
+}
+.vertical-line {
+    border-right: 2px solid #2F2D32 ;
 }
 
 /* Footer */
@@ -177,13 +200,13 @@ footer h6 {
 .social-networks {
     text-align: center;
     padding: 2%;
- 
+
 }
 
 .social-networks li {
     display: inline;
     margin: 2%;
-    
+
 }
 
 .social-networks i {
@@ -191,7 +214,7 @@ footer h6 {
     border-radius: 5px;
     color:black;
     font-size: 150%;
-    padding: 8px; 
+    padding: 8px;
 }
 
 
