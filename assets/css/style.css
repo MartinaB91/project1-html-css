@@ -58,63 +58,33 @@ h1, h2 {
 }
 
 /* Photo wall */
-#photo-wall-wrapper {
-    width: 100%;
-    height: 800px;
+
+#photo-wall {
+    height: 100%;
     background-color: #F5C8B3;
-    position: relative;
+    padding-bottom: 5%;
+}
+#photo-wall-wrapper {
+    clear: both;
+    column-count: 3;
+    column-gap: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
-#photo-wall-wrapper h2 {
-   padding: 30px;
-   border-bottom: 2px solid #2F2D32;
+#photo-wall h2 {
+   border-bottom: 3px solid #2F2D32;
+   padding: 2%;
+   margin-bottom: 2%;
 }
 
 #photo-wall-wrapper img {
-    position: absolute;
+    width: 100%;
     border: 9px solid white;
     background-color: white; /*For fixing the space between border and img*/
+    margin-bottom: 6%;
 
-}
-
-#pic-one {
-    width: 400px;
-    height: auto;
-    top: -30%;
-    left: 20%;
-
-}
-
-#pic-two {
-    width: 400px;
-    height: 600px;
-    bottom: 2%;
-    right: 3%;
-
-}
-
-#pic-three {
-    width: auto;
-    height: 400px;
-    bottom: 25%;
-    right: 35%;
-
-}
-
-#pic-four {
-    width: 400px;
-    height: auto;
-    top: -10%;
-    right: 20%;
-
-}
-
-#pic-five {
-    width: 400px;
-    height: auto;
-    bottom: -18%;
-    left: 41%;
 
 }
 
@@ -127,8 +97,12 @@ h1, h2 {
 
 }
 
-#timeline  h2 {
+#timeline h2 {
     padding-bottom: 120px;
+    padding-top: 2%;
+    margin-left: -10%; 
+    /* I do like this because i want my vertical line to go over the whole timeline section while keeping the h2 as same indentation as other h2 */
+   
 
 }
 
@@ -149,7 +123,7 @@ h1, h2 {
     display: block;
 }
 
-/* I use this poistion to hide the radio button and instead only use the label as button */
+/* I use this position to hide the radio button and instead only use the label as button */
 .timeline-radio-button {
     position: fixed;
 
@@ -184,8 +158,9 @@ h1, h2 {
 
 }
 .vertical-line {
-    border-right: 2px solid #2F2D32 ;
+    border-right: 3px solid #2F2D32 ;
 }
+
 
 /* Footer */
 footer {
