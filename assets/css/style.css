@@ -41,7 +41,8 @@ h1, h2 {
 
 /* Main picture */
 #top-bg-image-wrapper {
-    height: 1000px;
+    /* height: 1000px; */
+    height: auto;
     width: 100%;
     background-color: white;
     position: relative;
@@ -63,6 +64,14 @@ h1, h2 {
     padding: 0px 20px;
 
 }
+
+#top-bg-text {
+    text-align: center;
+    margin: 4% 20% 4% 20%;
+
+}
+
+
 
 /* Photo wall */
 
@@ -165,7 +174,7 @@ h1, h2 {
 
 }
 .vertical-line {
-    border-right: 4px solid #F5C8B3 ;
+    border-right: 8px solid #F5C8B3 ;
 }
 
 
@@ -225,6 +234,15 @@ footer h6 {
     padding-right: 3%;
 }
 
+.table-content-card {
+    margin-bottom: 20px;
+}
+
+.table-content-card th {
+    padding-right: 10px
+
+}
+
 .pic-right img {
     height: 400px;
     width: auto;
@@ -249,13 +267,17 @@ footer h6 {
 
 }
 
-#barbapappa {
+#barbapapa {
     background-color: #F5C8B3;
+    /* border-bottom: 4px solid #F5C8B3; */
 
 }
 #rosa-himmel {
     border-top: 5px solid #F5C8B3;
 }
+/* #fageln-phoenix {
+    border-top: 4px solid #E9F1E3;
+} */
 #flamingo {
     background-color: #F5C8B3; 
 
