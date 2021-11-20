@@ -44,7 +44,6 @@ h1, h2 {
     /* height: 1000px; */
     height: auto;
     width: 100%;
-    background-color: white;
     position: relative;
 
 }
@@ -71,8 +70,6 @@ h1, h2 {
 
 }
 
-
-
 /* Photo wall */
 
 #photo-wall {
@@ -97,9 +94,11 @@ h1, h2 {
 
 #photo-wall-wrapper img {
     width: 100%;
-    border: 9px solid white;
-    background-color: white; /*For fixing the space between border and img*/
+    /* border: 9px solid white;
+    background-color: white; */
+     /*For fixing the space between border and img*/
     margin-bottom: 6%;
+    box-shadow: 2px 2px 4px grey;
 
 
 }
@@ -210,19 +209,23 @@ footer h6 {
 }
 
 /* Our Pelargoniums */
-
 .pelargonium-card {
-    height: 500px;
-    width: 50%;
+    height: 400px;
+    width: 44%;
     padding-top: 50px;
+    margin: 3%;
+    background-color: white;
+    box-shadow: 2px 2px 4px grey;
 
 }
 .card-right {
     float: right;
+  
 }
 
 .card-left {
     float: left;
+
 }
 
 .content-card-left {
@@ -244,7 +247,8 @@ footer h6 {
 }
 
 .pic-right img {
-    height: 400px;
+    height: 300px; 
+    /* height: 400px; */
     width: auto;
     border: 9px solid white;
     background-color: white; 
@@ -253,7 +257,8 @@ footer h6 {
 }
 
 .pic-left img {
-    height: 400px;
+    /* height: 400px; */
+    height: 300px;
     width: auto;
     border: 9px solid white;
     background-color: white;
@@ -266,23 +271,82 @@ footer h6 {
     padding: 2%;
 
 }
+/* Media queries */
 
-#barbapapa {
-    background-color: #F5C8B3;
-    /* border-bottom: 4px solid #F5C8B3; */
+/* For medium screens sizes from 950px wide and down */
 
-}
-#rosa-himmel {
-    border-top: 5px solid #F5C8B3;
-}
-/* #fageln-phoenix {
-    border-top: 4px solid #E9F1E3;
-} */
-#flamingo {
-    background-color: #F5C8B3; 
-
+@media screen and (max-width: 950px) {
+    
+#top-bg-image {
+    height: 400px;
+    
 }
 
-.bg-color-sort {
-    background-color: #F5C8B3;
+#top-bg-image-wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+
 }
+ 
+#top-bg-text {
+    margin: 4%;
+}
+
+#photo-wall-wrapper {
+    clear: both;
+    column-count: 1;
+    column-gap: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: block;
+
+}
+
+#timeline {
+    background-color: white;
+    height: auto;
+    width: 100%;
+
+}
+
+#timeline h2 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.timeline-text-wrapper {
+    padding: 20px;
+    margin: 0;
+}
+
+#timeline-audio {
+    width: 100%;
+    
+}
+
+.vertical-line {
+    border-right: 1px solid white;
+}
+
+footer {
+    height: 80px;
+    background-color: #E9F1E3;
+    clear: both;
+}
+
+.social-networks i {
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #2F2D32;
+    font-size: 100%;
+    padding: 4px;
+}
+
+footer h6 {
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+} /* End media query 950px */
