@@ -2,14 +2,15 @@
 
 
 body {
-font-family: "Josefin Sans", sans-serif;
-font-weight: 300;
-height: 100%;
-color: #2F2D32;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    height: 100%;
+    color: #2F2D32;
 
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
     font-weight: 400;
@@ -21,17 +22,18 @@ h1, h2 {
     text-align: right;
     z-index: 1;
     font-size: 30px;
-   
+
 }
+
 #navbar-menu li a {
     color: white;
     padding: 5px 10px;
-    
+
 }
 
 #navbar-menu li a:hover {
-    border-bottom: 1px solid white; 
-   /*TODO: Delete when small screen  */
+    border-bottom: 1px solid white;
+    /*TODO: Delete when small screen  */
 
 }
 
@@ -77,6 +79,7 @@ h1, h2 {
     background-color: #F5C8B3;
     padding-bottom: 5%;
 }
+
 #photo-wall-wrapper {
     clear: both;
     column-count: 3;
@@ -87,16 +90,16 @@ h1, h2 {
 }
 
 #photo-wall h2 {
-   border-bottom: 4px solid white;
-   padding: 2%;
-   margin-bottom: 2%;
+    border-bottom: 4px solid white;
+    padding: 2%;
+    margin-bottom: 2%;
 }
 
 #photo-wall-wrapper img {
     width: 100%;
     /* border: 9px solid white;
     background-color: white; */
-     /*For fixing the space between border and img*/
+    /*For fixing the space between border and img*/
     margin-bottom: 6%;
     box-shadow: 2px 2px 4px grey;
 
@@ -115,9 +118,9 @@ h1, h2 {
 #timeline h2 {
     padding-bottom: 120px;
     padding-top: 2%;
-    margin-left: -10%; 
+    margin-left: -10%;
     /* I do like this because i want my vertical line to go over the whole timeline section while keeping the h2 as same indentation as other h2 */
-   
+
 
 }
 
@@ -129,12 +132,12 @@ h1, h2 {
 /* Not checked radio button should show no text */
 /* Sibling selector used to only target desired content */
 /* Inspiration from https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75*/
-.timeline-radio-button ~ .timeline-text-wrapper {
+.timeline-radio-button~.timeline-text-wrapper {
     display: none;
 }
 
 /* When button is checked the text will be visible*/
-.timeline-radio-button:checked ~ .timeline-text-wrapper {
+.timeline-radio-button:checked~.timeline-text-wrapper {
     display: block;
 }
 
@@ -153,7 +156,7 @@ h1, h2 {
 .timeline-text-wrapper {
     margin-left: 20%;
     margin-right: 20%;
-    
+
 }
 
 .timeline-text-wrapper i {
@@ -161,19 +164,21 @@ h1, h2 {
 
 }
 
-.timeline-radio-button:checked ~ label {
+.timeline-radio-button:checked~label {
     border-bottom: 3px solid black;
     padding-right: 5px;
 
 }
+
 /* To show the user that you can click on the radio btn label
  https://www.w3schools.com/cssref/pr_class_cursor.asp */
-.timeline-radio-button ~ label {
-   cursor: pointer;
+.timeline-radio-button~label {
+    cursor: pointer;
 
 }
+
 .vertical-line {
-    border-right: 8px solid #F5C8B3 ;
+    border-right: 8px solid #F5C8B3;
 }
 
 
@@ -184,10 +189,12 @@ footer {
     clear: both;
 
 }
+
 footer h6 {
     text-align: center;
     padding-top: 20px;
 }
+
 .social-networks {
     text-align: center;
     padding: 2%;
@@ -215,12 +222,13 @@ footer h6 {
     padding-top: 50px;
     margin: 3%;
     background-color: white;
-    box-shadow: 2px 2px 4px grey;
+    /* box-shadow: 2px 2px 4px grey; */
 
 }
+
 .card-right {
     float: right;
-  
+
 }
 
 .card-left {
@@ -229,11 +237,8 @@ footer h6 {
 }
 
 .content-card-left {
-    float: right;
-}
-
-.content-card-left {
     width: 40%;
+    float: right;
     padding-right: 3%;
 }
 
@@ -243,16 +248,16 @@ footer h6 {
 
 .table-content-card th {
     padding-right: 10px
-
 }
 
 .pic-right img {
-    height: 300px; 
+    height: 300px;
     /* height: 400px; */
     width: auto;
     border: 9px solid white;
-    background-color: white; 
+    background-color: white;
     margin-left: 4%;
+    box-shadow: 2px 2px 4px grey;
 
 }
 
@@ -263,6 +268,7 @@ footer h6 {
     border: 9px solid white;
     background-color: white;
     margin-left: 4%;
+    box-shadow: 2px 2px 4px grey;
 
 }
 
@@ -271,82 +277,114 @@ footer h6 {
     padding: 2%;
 
 }
+
 /* Media queries */
 
 /* For medium screens sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
+
+    /* Styling for common elements (nav, top-bg section and footer) */
+    #top-bg-image {
+        height: 300px;
+
+    }
+
+    #top-bg-image-wrapper h1 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+
+    #top-bg-text {
+        margin: 4%;
+    }
+
+    footer {
+        height: 80px;
+
+    }
+
+    footer h6 {
+        padding-top: 10px;
+
+    }
+    .social-networks i {
+        font-size: 100%;
+        padding: 4px;
+    }
+
+   
+    /* Media queries medium for index page */
+    #photo-wall-wrapper {
+        column-count: 1;
+        display: block;
+
+    }
+
+    #timeline {
+        padding: 0;
+
+    }
+
+    #timeline h2 {
+        padding-bottom: 30px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .timeline-text-wrapper {
+        padding: 20px;
+        margin: 0 4%;
+    }
+
+
+    #timeline-audio {
+        width: 100%;
+
+    }
+
+    .vertical-line { /*TODO: Check if border none work*/
+        border-right: 1px solid white;
+        width: 100%;
+    }
+
+
+
+    /* Media queries medium for Our Pelargoniums page */
+
+    #pelargoniums-cards {
+        display: block;
+    }
+
+    .pelargonium-card {
+        height: auto;
+        width: 100%;
+        padding: 20px 5px;
+        margin: 2% 0;
+        border-bottom: 8px solid #F5C8B3;
+        border-top: 8px solid #E9F1E3;
+
+    }
+
+    .card-right, .card-left {
+        clear: both;
     
-#top-bg-image {
-    height: 400px;
-    
-}
+    }
 
-#top-bg-image-wrapper h1 {
-    font-size: 40px;
-    text-align: center;
+    .content-card-left {
+        width: 100%;
+        padding: 0 4%;
+    }
 
-}
- 
-#top-bg-text {
-    margin: 4%;
-}
-
-#photo-wall-wrapper {
-    clear: both;
-    column-count: 1;
-    column-gap: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    display: block;
+    .pic-right img,
+    .pic-left img {
+        width: 98%;
+        margin: 1%;
+        border: 0 none white;
+    }
 
 }
 
-#timeline {
-    background-color: white;
-    height: auto;
-    width: 100%;
-
-}
-
-#timeline h2 {
-    padding-bottom: 30px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.timeline-text-wrapper {
-    padding: 20px;
-    margin: 0;
-}
-
-#timeline-audio {
-    width: 100%;
-    
-}
-
-.vertical-line {
-    border-right: 1px solid white;
-}
-
-footer {
-    height: 80px;
-    background-color: #E9F1E3;
-    clear: both;
-}
-
-.social-networks i {
-    border: 1px solid grey;
-    border-radius: 5px;
-    color: #2F2D32;
-    font-size: 100%;
-    padding: 4px;
-}
-
-footer h6 {
-    text-align: center;
-    padding-top: 10px;
-    
-}
-
-} /* End media query 950px */
+/* End media query 950px */
