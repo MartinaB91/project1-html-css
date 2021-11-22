@@ -102,22 +102,18 @@ h2 {
 
 #photo-wall-wrapper img {
     width: 100%;
-    /* border: 9px solid white; */
     background-color: white;
     /*For fixing the space between border and img*/
     margin-bottom: 6%;
     box-shadow: 2px 2px 4px grey;
 
-
 }
-
 /* Timeline styling */
 #timeline {
     background-color: white;
     height: auto;
     width: 100%;
     padding: 0 10%;
-
 
 }
 
@@ -339,8 +335,7 @@ footer h6 {
 
     #top-bg-image-wrapper h1 {
         font-size: 40px;
-        text-align: center;
-        padding-top: 20px;
+        bottom: 60%;
 
     }
 
@@ -419,7 +414,7 @@ footer h6 {
 
 /* For tablet screens sizes from 768px wide and down */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
 
     /* Styling for common elements (nav, top-bg section and footer) */
     #top-bg-image {
@@ -438,7 +433,7 @@ footer h6 {
     }
 
     footer {
-        height: 80px;
+        height: 100px;
 
     }
 
