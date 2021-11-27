@@ -14,6 +14,7 @@ body {
 
 h1 {
     font-family: 'Dancing Script', cursive;
+    /* TODO: See if i need to put in fallback font */
     text-transform: capitalize;
     font-weight: 400;
 }
@@ -64,7 +65,7 @@ h2 {
     width: 100%;
     /* Picture from: Pexels.com */
     background: url("../images/pexels-max-andrey-1254736.jpg") no-repeat center center;
-    background-color: #FFE8D3;
+    background-color: #EA9491;
     background-size: cover;
     position: relative;
 
@@ -89,7 +90,7 @@ h2 {
 
 #photo-wall {
     height: 100%;
-    background-color: #FFE8D3;
+    background-color: #EA9491;
     padding-bottom: 5%;
 }
 
@@ -209,14 +210,14 @@ h2 {
 }
 
 .vertical-line {
-    border-right: 8px solid #FFE8D3;
+    border-right: 8px solid #EA9491;
 }
 
 
 /* Footer */
 footer {
     height: 150px;
-    background-color: #B9D7C7;
+    background-color: #9EADBD;
     clear: both;
 
 }
@@ -262,7 +263,7 @@ footer h6 {
 }
 
 .grid-card {
-    background-color: #FFE8D3;
+    background-color: #EA9491;
     box-shadow: 2px 2px 4px grey;
     padding: 5% 0;
 }
@@ -301,7 +302,7 @@ footer h6 {
 }
 
 #heading-contact-form {
-    border-bottom: 4px solid #FFE8D3;
+    border-bottom: 4px solid #EA9491;
 
 }
 
@@ -337,7 +338,7 @@ footer h6 {
     border: 1px solid #2F2D32;
     font-weight: bold;
     width: 100px;
-    background-color: #FFE8D3;
+    background-color: #EA9491;
 
 }
 /* Media queries */
