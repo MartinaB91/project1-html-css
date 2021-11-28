@@ -9,12 +9,10 @@ body {
     font-weight: 300;
     height: 100%;
     color: #2F2D32;
-
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
-    /* TODO: See if i need to put in fallback font */
     text-transform: capitalize;
     font-weight: 400;
 }
@@ -27,25 +25,23 @@ h2 {
     padding: 2%;
     margin-bottom: 2%;
 }
+
 /* Changes to Bootstrap navbar */
 #navbar-menu {
     float: right;
     text-align: right;
     z-index: 1;
     font-size: 30px;
-
 }
 
 #navbar-menu li a {
     color: #2F2D32;
     padding: 5px 10px;
-
 }
 
 #navbar-menu li a:hover {
     border-bottom: 1px solid white;
     /*TODO: Delete when small screen  */
-
 }
 
 .navbar-toggler {
@@ -57,7 +53,6 @@ h2 {
     height: auto;
     width: 100%;
     position: relative;
-
 }
 
 #top-bg-image {
@@ -68,26 +63,32 @@ h2 {
     background-color: #E4B9B2ff;
     background-size: cover;
     position: relative;
+}
 
+#top-bg-image-our-pelargoniums {
+    height: 37.5rem;
+    width: 100%;
+    /* Picture from: Pexels.com */
+    background: url("../images/pexels-brett-sayles-5428362.jpg") no-repeat center center;
+    background-color: #E4B9B2ff;
+    background-size: cover;
+    position: relative;
 }
 
 #top-bg-image-wrapper h1 {
     font-size: 80px;
     text-align: center;
-    position: absolute; 
+    position: absolute;
     width: 100%;
-    top: 21.875rem; /*TODO: See if posib to place 40% of image height*/
-
+    top: 21.875rem;
 }
 
 #top-bg-text {
     text-align: center;
     margin: 4% 20% 4% 20%;
-   
 }
 
 /* Photo wall */
-
 #photo-wall {
     height: 100%;
     background-color: #E4B9B2ff;
@@ -110,16 +111,14 @@ h2 {
 
 #photo-wall-wrapper img {
     width: 100%;
-    background-color: white;
-    /*For fixing the space between border and img*/
     margin-bottom: 6%;
     box-shadow: 2px 2px 4px grey;
-
 }
 
 /* Inspiration from: https://www.w3schools.com/howto/howto_css_image_overlay_title.asp */
 .overlay {
-    bottom: calc(6% - 2px); /*Was a gap between picture and shadow(Shadow is 2px). Found solution at https://www.w3schools.com/cssref/func_calc.asp*/
+    bottom: calc(6% - 2px);
+    /*Was a gap between picture and shadow(Shadow is 2px). Found solution at https://www.w3schools.com/cssref/func_calc.asp*/
     width: 100%;
     font-size: 30px;
     font-weight: bold;
@@ -136,7 +135,6 @@ h2 {
 
 .pic-overlay-container {
     position: relative;
-
 }
 
 /* Timeline styling */
@@ -145,24 +143,22 @@ h2 {
     height: auto;
     width: 100%;
     padding: 0 10%;
-
 }
 
 #timeline h2 {
     padding-top: 2%;
     margin-left: -10%;
-    /* I do like this because i want my vertical line to go over the whole timeline section while keeping the h2 as same indentation as other h2 */
-
+    /* I do like this because i want my vertical line to go over the whole
+    timeline section while keeping the h2 as same indentation as other h2 */
 }
 
 .timeline-buttons {
     padding: 1.25rem;
-
 }
 
-/* Not checked radio button should show no text */
-/* Sibling selector used to only target desired content */
-/* Inspiration from https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75*/
+/*  - Not checked radio button should show no text 
+    - Sibling selector used to only target desired content 
+    - Inspiration from https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75*/
 .timeline-radio-button~.timeline-text-wrapper {
     display: none;
 }
@@ -175,37 +171,31 @@ h2 {
 /* I use this position to hide the radio button and instead only use the label as button */
 .timeline-radio-button {
     position: fixed;
-
 }
 
 .timeline-text {
     text-align: justify;
     display: inline;
-
 }
 
 .timeline-text-wrapper {
     margin-left: 20%;
     margin-right: 20%;
-
 }
 
 .timeline-text-wrapper i {
     font-size: 130%;
-
 }
 
 .timeline-radio-button:checked~label {
     border-bottom: 3px solid black;
     padding-right: 5px;
-
 }
 
 /* To show the user that you can click on the radio btn label
  https://www.w3schools.com/cssref/pr_class_cursor.asp */
 .timeline-radio-button~label {
     cursor: pointer;
-
 }
 
 .vertical-line {
@@ -221,7 +211,6 @@ footer {
     height: 9.375rem;
     background-color: #7592A0ff;
     clear: both;
-
 }
 
 footer h6 {
@@ -232,13 +221,11 @@ footer h6 {
 .social-networks {
     text-align: center;
     padding: 1%;
-
 }
 
 .social-networks li {
     display: inline;
     margin: 1%;
-
 }
 
 .social-networks i {
@@ -247,22 +234,21 @@ footer h6 {
     color: #2F2D32;
     font-size: 150%;
     padding: 8px;
-} */
+}
 
 /* Our Pelargoniums */
 #pelargoniums-cards {
     height: auto;
-
 }
 
-iframe { 
+iframe {
     width: 100%;
     height: 43.75rem;
 }
 
 #our-pelargoniums-body-text {
     text-align: center;
-    margin: 0 20% 4% 20%;  
+    margin: 0 20% 4% 20%;
 }
 
 .grid-cards-container {
@@ -271,7 +257,6 @@ iframe {
     grid-gap: 1.25rem;
     margin: 3%;
     background-color: white;
-
 }
 
 .grid-card {
@@ -292,28 +277,24 @@ iframe {
 
 .table-content-card th {
     padding-right: 0.625rem;
-
 }
 
 .grid-card-pic img {
     height: 18.75rem;
     width: auto;
     border: 9px solid white;
-    background-color: white;
     margin-left: 4%;
-
 }
 
 .grid-card-text {
     text-align: left;
     padding: 2%;
-
 }
+
 /* Contact page*/
 #contact-page {
     background-color: white;
 }
-
 
 #contact-form-wrapper {
     background-color: white;
@@ -321,20 +302,17 @@ iframe {
     height: 25rem;
     margin: 5% auto 10%;
     padding: 1%;
-
 }
 
 .contact-wrapper {
     display: block;
     margin: 5% 4%;
-
 }
 
 .contact-input {
     width: 60%;
     float: right;
     border: 1px solid #2F2D32;
-
 }
 
 .contact-wrapper label {
@@ -342,44 +320,41 @@ iframe {
     font-weight: bold;
 }
 
-#submit  {
-    margin-top: 7.1em;  
+#submit {
+    margin-top: 7.1em;
     margin-left: 4%;
     padding: 2%;
     border: 1px solid #2F2D32;
     font-weight: bold;
     width: 30%;
     background-color: #E4B9B2ff;
-
 }
+
 /* Media queries */
+
 /* For phone screens sizes from 481px wide and down */
 @media screen and (max-width: 480px) {
 
     /* Styling for common elements (nav, top-bg section and footer) */
-    #top-bg-image {
+    #top-bg-image, #top-bg-image-our-pelargoniums  {
         height: 18.75rem;
-
     }
 
     #top-bg-image-wrapper h1 {
         font-size: 40px;
         top: 12.5rem;
-
     }
-    
+
     #top-bg-text {
         margin: 8% 4%;
     }
 
     footer {
         height: 5rem;
-
     }
 
     footer h6 {
         padding-top: 10px;
-
     }
 
     .social-networks i {
@@ -391,15 +366,10 @@ iframe {
     #photo-wall-wrapper {
         column-count: 1;
         display: block;
-
     }
 
     #photo-wall h2 {
         text-align: center;
-    }
-    /* TODO: Remove? already in common MQ */
-    #top-bg-text {
-        margin: 8% 4%;
     }
 
     #timeline {
@@ -419,7 +389,6 @@ iframe {
 
     #timeline-audio {
         width: 100%;
-
     }
 
     .vertical-line {
@@ -444,7 +413,6 @@ iframe {
     .grid-cards-container {
         grid-template-columns: 1fr;
         margin: 0;
-
     }
 
     .content-card-left {
@@ -463,15 +431,13 @@ iframe {
     #contact-form-wrapper {
         background-color: white;
         width: 100%;
-        height: auto; 
+        height: auto;
         padding: 1%;
-    
     }
-    
+
     #contact-wrapper {
         float: left;
         margin-bottom: 2%;
-        
     }
 
     #heading-contact-form {
@@ -482,18 +448,14 @@ iframe {
         width: 100%;
         display: block;
         clear: both;
-       
     }
 
-    #submit  {
+    #submit {
         margin: 8% 10% 0% 10%;
         width: 80%;
-    
-   
     }
-  
-
-}/* End media query 480px */
+}
+/* End media query 480px */
 
 /* For tablet screens sizes from 768px wide and down */
 
@@ -502,28 +464,23 @@ iframe {
     /* Styling for common elements (nav, top-bg section and footer) */
     #top-bg-image {
         height: 25rem;
-
     }
 
     #top-bg-image-wrapper h1 {
         font-size: 40px;
         top: 15.625rem;
-
     }
 
     #top-bg-text {
         margin: 4%;
     }
 
-
     footer {
         height: 6.25rem;
-
     }
 
     footer h6 {
         padding-top: 10px;
-
     }
 
     .social-networks i {
@@ -535,7 +492,6 @@ iframe {
     #photo-wall-wrapper {
         column-count: 2;
     }
-
 
     /* Media queries tablet for our pelargoniums page */
     iframe {
@@ -555,15 +511,12 @@ iframe {
     .grid-cards-container {
         grid-template-columns: 1fr;
         margin: 0;
-
     }
 
     /* Media queries tablet for contact page */
 
     #submit {
-        margin-top: 7em; 
+        margin-top: 7em;
     }
-    
 }
-
 /*End media query 768px */
