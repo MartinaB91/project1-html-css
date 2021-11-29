@@ -12,7 +12,6 @@ This section contains details of the sites design
 #### Wireframes
 ## Features
 This section will describe all sections, their features and intended purpose. The section begins with features common for all site pages.
-Navigation-bar
 #### Navigation bar
 - In the navbar we find link to all other pages on the site: Home, Our Pelargoniums and Contact. The navbar is quite discrete, it is as visible as needed while remaining as functional as could be.
 
@@ -60,21 +59,25 @@ On the contact page the user can get in touch with Osis. The contact form has a 
 
 [Bootstrap](https://getbootstrap.com/): Used for the navbar and also for icon in timeline.
 
-[w3scools image overlay](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp): Used as a guide for creating the flower-name-image-overlay.
+[Color matcher](https://coolors.co/image-picker): To get colors that goes well with the hero-image an external tool was used, this tool lets the user select color from image and is presented with a palette of matching colors.
 
 [Dev.to css hack](https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75): Used as inspiration when creating the radio-buttons in the Timeline.
 
-[w3schools grid](https://www.w3schools.com/css/css_grid.asp): Used as guide when creating grid system on section Our Pelargoniums.
-
-[Google fonts](https://fonts.google.com/): Fonts used in headers and body text.
-
 [Font awesome](https://fontawesome.com/): Icons used in timeline section.
-
-[Pexels](https://www.pexels.com/sv-se/): The picture in the hero-image is from Pexels.
 
 [Freesound](https://freesound.org/): Audio from freesound used in step five of timeline.
 
-[Color matcher](https://coolors.co/image-picker): To get colors that goes well with the hero-image an external tool was used, this tool lets the user select color from image and is presented with a palette of matching colors.
+[Favicon](https://favicon.io/favicon-generator/): Used for creating favicon image.
+
+[Google fonts](https://fonts.google.com/): Fonts used in headers and body text.
+
+[Pexels](https://www.pexels.com/sv-se/): The picture in the hero-image is from Pexels.
+
+[w3scools image overlay](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp): Used as a guide for creating the flower-name-image-overlay.
+
+[w3schools grid](https://www.w3schools.com/css/css_grid.asp): Used as guide when creating grid system on section Our Pelargoniums.
+
+[Youtube](https://youtu.be/8K2auUWtN1U): The video on page Our Pelargoniums is from YouTube.
 
 
 
