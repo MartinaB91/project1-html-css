@@ -61,6 +61,8 @@ On the contact page the user can get in touch with Osis. The contact form has a 
 
 [Color matcher](https://coolors.co/image-picker): To get colors that goes well with the hero-image an external tool was used, this tool lets the user select color from image and is presented with a palette of matching colors.
 
+[Converter Px to REM](https://nekocalc.com/px-to-rem-converter): Used for convert Px to rem 
+
 [Dev.to css hack](https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75): Used as inspiration when creating the radio-buttons in the Timeline.
 
 [Font awesome](https://fontawesome.com/): Icons used in timeline section.
@@ -72,6 +74,8 @@ On the contact page the user can get in touch with Osis. The contact form has a 
 [Google fonts](https://fonts.google.com/): Fonts used in headers and body text.
 
 [Pexels](https://www.pexels.com/sv-se/): The picture in the hero-image is from Pexels.
+
+[Reqtest](https://reqtest.com/testing-blog/how-to-write-effective-test-cases/): Used as guide for writing test cases. 
 
 [w3scools image overlay](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp): Used as a guide for creating the flower-name-image-overlay.
 
