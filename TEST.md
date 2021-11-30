@@ -109,7 +109,17 @@ Description: Function 404.
 |2.|	Delete ”html” from url and press enter.|  Redirected to 404 page. |
 
 
-
 ## Test results
+
+| Step	 | Chrome  | Edge    | Firefox |
+|--------|---------|---------|---------|
+| Test 1 |         |         |         | 
+| Test 2 |         |         |         | 
+| Test 3 |         |         |         | 
+| Test 4 |         |         |         | 
+| Test 5 |         |         |         | 
+| Test 6 |         |         |         | 
+| Test 7 |         |         |         | 
+| Test 8 |         |         |         | 
 ## Validation
 
