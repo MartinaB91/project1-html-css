@@ -46,7 +46,9 @@ This page contains two sections: Introduction and Our Pelargoniums. Here we can 
 - The page is fully responsive and with the current number of cards (image and text) the grid system will be a 2*3 on larger screens and 1*6 on smaller screens. Each flower has its own card.
 ### Contact
 On the contact page the user can get in touch with Osis. The contact form has a clean and intuitive design and contains textbox with well visible labels for name, e-mail and textbox for free text.
-## Testing
+## Test and validation
+
+Read more about test and validation [here](TEST.md)
 
 ## Bugs corrections and improvements
 #### Unfixed bugs
