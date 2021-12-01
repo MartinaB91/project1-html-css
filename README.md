@@ -47,11 +47,12 @@ This page contains two sections: Introduction and Our Pelargoniums. Here we can 
 ### Contact
 On the contact page the user can get in touch with Osis. The contact form has a clean and intuitive design and contains textbox with well visible labels for name, e-mail and textbox for free text.
 ## Test and validation
-
 Read more about test and validation [here](TEST.md)
-
 ## Bugs corrections and improvements
+This section contains details of the sites bugs corrections and future improvements.
 #### Unfixed bugs
+- The navbar has a non-functional bug, its look and function is as intended. Bootstrap includes functionality for having a navbar-brand and the minimalistic design decision made a brand unwanted. However, this div has not been possible to remove as it changes the overall appearance of the navbar.
+Since this is non-functional it was decided to leave as is and focus on more important improvements.
 #### Future improvements 
 - On the Our Pelargoniums-page, include more information about the flowers such as: how does it grow, rooting and links to parents.
 
