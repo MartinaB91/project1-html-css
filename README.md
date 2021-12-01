@@ -89,7 +89,7 @@ This section contains details of the sites bugs corrections and future improveme
 - The navbar has a non-functional bug, its look and function is as intended. Bootstrap includes functionality for having a navbar-brand and the minimalistic design decision made a brand unwanted. However, this div has not been possible to remove as it changes the overall appearance of the navbar.
 Since this is non-functional it was decided to leave as is and focus on more important improvements.
 #### Future improvements 
-- On the Our Pelargoniums-page, include more information about the flowers such as: how does it grow, rooting and links to parents.
+- On the Our Pelargoniums-page, include a link that leads to a page with more information about the flowers such as: how does it grow, rooting and more information about parents.
 
 - Sales is handled in other channels today and in the future functionality for handling this on the site would be nice.
 ## Deployment
