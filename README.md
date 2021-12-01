@@ -10,8 +10,19 @@ This section contains details of the sites design
 #### Borders
 - Horizontal and vertical borders are used as a part of the sites design, the borders use the same color-scheme as the rest of the site. The borders are used to make large single-colored sections a bit more lively.
 #### Wireframes
-![Wireframes for all pages, large screen]("")
+This is the wireframes for large screens. The layout of the photo wall was created but changed through the project because it did not match the expectations. 
 
+<img src="assets/readme-images/all-pages-large-screen-img.PNG" height= 500; >
+
+This is the wireframes for small screens.
+
+<img src="assets/readme-images/all-pages-small-screen-img.PNG" width= auto; height= 500;>
+
+This is a more detailed wireframe of the timeline. 
+
+<img src="assets/readme-images/timeline-img.PNG" width= auto; height= 300; >
+
+The medium sized screen has few differences from large and small, it's a mix of them. Therefore no wireframes are provided. The only difference is how the grid system and columns is shown. 
 
 ## Features
 This section will describe all sections, their features and intended purpose. The section begins with features common for all site pages.
