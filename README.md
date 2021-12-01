@@ -4,12 +4,12 @@ The site is made with the purpose to invoke interest for Osis Pelargoniums and g
 ## UX/Design
 This section contains details of the sites design
 #### Color scheme
-- The colors of the site is pink (#E4B9B2ff) and blue (#7592A0ff), these colors was chosen because they go well with the hero-image.
+- The colors of the site is blue (#7592A0ff) and pink (#E4B9B2ff), these colors was chosen because they go well with the hero-image.
 
-<img src="assets/readme-images/colors-img.png">
+<img src="assets/readme-images/colors-img.png" height= 100;>
 
 #### Typography
-- For headings the font ‘Dancing Script’ is used and ‘Josefin Sans’ is used for the body, they both have fallback ‘Sans-Serif’. This pair was chosen after reading the [article](https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/). The typography is modern without feeling stiff which goes well with the rest of the content.
+- For headings the font ‘Dancing Script’ is used and ‘Josefin Sans’ is used for the body, ‘Josefin Sans’ has fallback ‘Sans-Serif’ and ‘Dancing Script’ has ‘Cursive’. This pair was chosen after reading the [article](https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/). The typography is modern without feeling stiff which goes well with the rest of the content.
 #### Borders
 - Horizontal and vertical borders are used as a part of the sites design, the borders use the same color-scheme as the rest of the site. The borders are used to make large single-colored sections a bit more lively.
 #### Wireframes
