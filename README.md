@@ -10,6 +10,9 @@ This section contains details of the sites design
 #### Borders
 - Horizontal and vertical borders are used as a part of the sites design, the borders use the same color-scheme as the rest of the site. The borders are used to make large single-colored sections a bit more lively.
 #### Wireframes
+![Wireframes for all pages, large screen]("")
+
+
 ## Features
 This section will describe all sections, their features and intended purpose. The section begins with features common for all site pages.
 #### Navigation bar
@@ -43,7 +46,7 @@ This page contains two sections: Introduction and Our Pelargoniums. Here we can 
 #### Our pelargoniums
 - This section is intended to showcase the processors own flowers. There is also more information about the flowers then they would have on social media which is more picture centric.
 
-- The page is fully responsive and with the current number of cards (image and text) the grid system will be a 2*3 on larger screens and 1*6 on smaller screens. Each flower has its own card.
+- The page is fully responsive and with the current number of cards (image and text) the grid system will be a 2x3 on larger screens and 1x6 on smaller screens. Each flower has its own card.
 ### Contact
 On the contact page the user can get in touch with Osis. The contact form has a clean and intuitive design and contains textbox with well visible labels for name, e-mail and textbox for free text.
 ## Test and validation
