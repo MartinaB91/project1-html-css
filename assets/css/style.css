@@ -41,14 +41,13 @@ h2 {
 
 #navbar-menu li a:hover {
     border-bottom: 1px solid white;
-    /*TODO: Delete when small screen  */
 }
 
 .navbar-toggler {
     background-color: white;
 }
 
-/* Main picture */
+/* Main/Hero picture */
 #top-bg-image-wrapper {
     height: auto;
     width: 100%;
@@ -458,11 +457,9 @@ iframe {
 /* End media query 480px */
 
 /* For tablet screens sizes from 768px wide and down */
-
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
     /* Styling for common elements (nav, top-bg section and footer) */
-
     #top-bg-image, #top-bg-image-our-pelargoniums {
         height: 25rem;
     }
@@ -518,7 +515,6 @@ iframe {
     }
 
     /* Media queries tablet for contact page */
-
     #submit {
         margin-top: 7em;
     }
