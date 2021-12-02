@@ -331,6 +331,10 @@ iframe {
 @media screen and (max-width: 480px) {
 
     /* Styling for common elements (nav, top-bg section and footer) */
+    #navbar-menu li a:hover {
+        border-bottom: 0px solid white;
+    }
+
     #top-bg-image, #top-bg-image-our-pelargoniums  {
         height: 18.75rem;
     }
@@ -460,6 +464,10 @@ iframe {
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
     /* Styling for common elements (nav, top-bg section and footer) */
+    #navbar-menu li a:hover {
+        border-bottom: 0px solid white;
+    }
+
     #top-bg-image, #top-bg-image-our-pelargoniums {
         height: 25rem;
     }
