@@ -6,7 +6,7 @@ This section contains details of the sites design
 #### Color scheme
 - The colors of the site is blue (#7592A0ff) and pink (#E4B9B2ff), these colors was chosen because they go well with the hero-image.
 
-<img src="assets/readme-images/colors-img.png" height= 100;>
+<img src="assets/readme-images/colors.png" height= 100;>
 
 #### Typography
 - For headings the font ‘Dancing Script’ is used and ‘Josefin Sans’ is used for the body, ‘Josefin Sans’ has fallback ‘Sans-Serif’ and ‘Dancing Script’ has ‘Cursive’. This pair was chosen after reading the [article](https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/). The typography is modern without feeling stiff which goes well with the rest of the content.
@@ -15,15 +15,15 @@ This section contains details of the sites design
 #### Wireframes
 This is the wireframes for large screens. The layout of the photo wall was created but changed through the project because it did not match the expectations. 
 
-<img src="assets/readme-images/all-pages-large-screen-img.PNG" height= 500;>
+<img src="assets/readme-images/all-pages-large-screen.PNG" height= 500;>
 
 This is the wireframes for small screens.
 
-<img src="assets/readme-images/all-pages-small-screen-img.PNG" height= 500;>
+<img src="assets/readme-images/all-pages-small-screen.PNG" height= 500;>
 
 This is a more detailed wireframe of the timeline. 
 
-<img src="assets/readme-images/timeline-img.PNG" height= 380; >
+<img src="assets/readme-images/timeline.PNG" height= 380; >
 
 The medium sized screen has few differences from large and small, it's a mix of them. Therefore, no wireframes are provided. The only difference is how the grid system and columns are shown. 
 
@@ -34,17 +34,17 @@ This section will describe all sections, their features and intended purpose. Th
 
 - It is fully responsive and changes appearance based on the user’s screen size. On smaller devices the navbar is minimized and the user needs to open it to see all links.
 
-<img src="assets/readme-images/navbar-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/navbar.PNG" height= auto; width= 90%>
 
 #### Hero image
 - The hero-image is chosen to give the user a summer feeling, the time of the year when flowers are in bloom.  Attentive users will later learn that the image has more meaning, as one of the flowers is call ‘Rosa himmel’ (Swedish for pink sky).
 
-<img src="assets/readme-images/hero-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/hero.PNG" height= auto; width= 90%>
 
 #### Footer
 - A clean footer with links to Osis Pelargoniums social medias.
 
-<img src="assets/readme-images/footer-website-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/footer-website.PNG" height= auto; width= 90%>
 
 ### Home page
 This page has three sections: introduction, photo wall and timeline.
@@ -57,7 +57,7 @@ This page has three sections: introduction, photo wall and timeline.
 
 - When hoovering an image, the flowers name will be visible. This is to make it easy for the user to seek information about flowers from other processors elsewhere, since this site only contains information about Osis own flowers.
 
-<img src="assets/readme-images/photo-wall-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/photo-wall.PNG" height= auto; width= 90%>
 
 #### Timeline
 - The timeline section is intended to give the user an easygoing introduction to pelargonium processing and to motivate them to try themselves.
@@ -66,7 +66,7 @@ This page has three sections: introduction, photo wall and timeline.
 
 - On step five of the timeline an audio-element is used to celebrate completion of all steps in a fun way.
 
-<img src="assets/readme-images/timeline-website-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/timeline-website.PNG" height= auto; width= 90%>
 
 ### Our pelargoniums
 This page contains two sections: Introduction and Our Pelargoniums. Here we can see all of the flowers the processor has today. The user can also read more information about their flower of interest.
@@ -77,12 +77,12 @@ This page contains two sections: Introduction and Our Pelargoniums. Here we can 
 
 - The page is fully responsive and with the current number of cards (image and text) the grid system will be a 2x3 on larger screens and 1x6 on smaller screens. Each flower has its own card.
 
-<img src="assets/readme-images/our-pelargonium-website-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/our-pelargonium-website.PNG" height= auto; width= 90%>
 
 ### Contact
 On the contact page the user can get in touch with Osis. The contact form has a clean and intuitive design and contains textbox with well visible labels for name, e-mail and textbox for free text.
 
-<img src="assets/readme-images/contact-form-img.PNG" height= auto; width= 90%>
+<img src="assets/readme-images/contact-form.PNG" height= auto; width= 90%>
 
 ## Test and validation
 Read more about test and validation [here](TEST.md)

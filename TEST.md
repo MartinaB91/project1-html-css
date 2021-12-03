@@ -111,16 +111,16 @@ Description: Function 404.
 
 ## Test results
 
-| Step	 | Chrome  | Edge    | Firefox |
+| Step	 | Chrome  | Edge    | Opera   |
 |--------|---------|---------|---------|
-| Test 1 |         |         |         | 
-| Test 2 |         |         |         | 
-| Test 3 |         |         |         | 
-| Test 4 |         |         |         | 
-| Test 5 |         |         |         | 
-| Test 6 |         |         |         | 
-| Test 7 |         |         |         | 
-| Test 8 |         |         |         | 
+| Test 1 |         |         |         |                     
+| Test 2 |         |         |         |                     
+| Test 3 |         |         |         |                     
+| Test 4 |         |         |         |                     
+| Test 5 |         |         |         |                     
+| Test 6 |         |         |         |                     
+| Test 7 |         |         |         |                     
+| Test 8 |         |         |         |                     
 
 ## Validation
 
