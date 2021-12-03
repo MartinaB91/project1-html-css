@@ -460,7 +460,7 @@ iframe {
 }
 /* End media query 480px */
 
-/* For tablet screens sizes from 768px wide and down */
+/* For tablet screens sizes from 768px wide and down to 481px */
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
     /* Styling for common elements (nav, top-bg section and footer) */
@@ -494,7 +494,7 @@ iframe {
         padding: 4px;
     }
 
-    /* Media queries tablets for index page */
+    /* Media queries tablet for index page */
     #photo-wall-wrapper {
         column-count: 2;
     }
@@ -526,5 +526,16 @@ iframe {
     #submit {
         margin-top: 7em;
     }
+
 }
 /*End media query 768px */
+
+    /* For tablet screens sizes from 1180px wide and down to 769px */
+    /*Media queries tablet for our pelargoniums page   */
+    @media screen and (max-width: 1180px) and (min-width: 769px) {
+        .content-card-left {
+            width: 100%;
+            padding-left: 4%;
+        }
+    } 
+    /* End media query 1180px */
