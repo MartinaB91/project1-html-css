@@ -84,6 +84,9 @@ On the contact page the user can get in touch with Osis. The contact form has a 
 
 <img src="assets/readme-images/contact-form.PNG" height= auto; width= 90%>
 
+### 404
+If the user navigates to a non-existing url, the user is redirected to a 404 page.
+
 ## Test and validation
 Read more about test and validation [here](TEST.md)
 ## Bugs corrections and improvements
@@ -96,6 +99,13 @@ Since this is non-functional it was decided to leave as is and focus on more imp
 
 - Sales is handled in other channels today and in the future functionality for handling this on the site would be nice.
 ## Deployment
+This section describes how the site was deployed. 
+
+1. Make sure that all code is comitted and pushed. 
+2. Go to GitHub. Choose which resposatory to deploy.
+3. Go to 'Settings', scroll to GitHub Pages and click 'Check it out here'.
+4. In section source, select main branch and save. 
+5. Wait until GitHub has created your link to the deployed site.
 ## Credits
 
 [Bootstrap](https://getbootstrap.com/): Used for the navbar and also for icon in timeline.
