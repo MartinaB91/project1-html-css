@@ -108,14 +108,15 @@ This section describes how the site was deployed.
 5. Wait until GitHub has created your link to the deployed site.
 ## Credits
 
+#### Code
 [Bootstrap](https://getbootstrap.com/): Used for the navbar and also for icon in timeline.
-
-[Color matcher](https://coolors.co/image-picker): To get colors that goes well with the hero-image an external tool was used, this tool lets the user select color from image and is presented with a palette of matching colors.
-
-[Converter Px to REM](https://nekocalc.com/px-to-rem-converter): Used for convert Px to rem 
 
 [Dev.to css hack](https://dev.to/devhammed/awesome-checkbox-and-radio-button-css-hacks-1b75): Used as inspiration when creating the radio-buttons in the Timeline.
 
+[w3scools image overlay](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp): Used as a guide for creating the flower-name-image-overlay.
+
+[w3schools grid](https://www.w3schools.com/css/css_grid.asp): Used as guide when creating grid system on section Our Pelargoniums.
+#### Content and media
 [Font awesome](https://fontawesome.com/): Icons used in timeline section.
 
 [Freesound](https://freesound.org/): Audio from freesound used in step five of timeline.
@@ -126,13 +127,25 @@ This section describes how the site was deployed.
 
 [Pexels](https://www.pexels.com/sv-se/): The picture in the hero-image is from Pexels.
 
+[Youtube](https://youtu.be/8K2auUWtN1U): The video on page Our Pelargoniums is from YouTube.
+#### Tools
+[Color matcher](https://coolors.co/image-picker): To get colors that goes well with the hero-image an external tool was used, this tool lets the user select color from image and is presented with a palette of matching colors.
+
+[Compressjpeg](https://compressjpeg.com/): Used for compressing images.
+
+[Converter Px to REM](https://nekocalc.com/px-to-rem-converter): Used for convert Px to rem 
+
 [Reqtest](https://reqtest.com/testing-blog/how-to-write-effective-test-cases/): Used as guide for writing test cases. 
 
-[w3scools image overlay](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp): Used as a guide for creating the flower-name-image-overlay.
 
-[w3schools grid](https://www.w3schools.com/css/css_grid.asp): Used as guide when creating grid system on section Our Pelargoniums.
 
-[Youtube](https://youtu.be/8K2auUWtN1U): The video on page Our Pelargoniums is from YouTube.
+
+
+
+
+
+
+
 
 
 
