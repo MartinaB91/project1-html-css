@@ -102,7 +102,7 @@ Since this is non-functional it was decided to leave as is and focus on more imp
 This section describes how the site was deployed. 
 
 1. Make sure that all code is comitted and pushed. 
-2. Go to GitHub. Choose which resposatory to deploy.
+2. Go to GitHub. Choose which repository to deploy.
 3. Go to 'Settings', scroll to GitHub Pages and click 'Check it out here'.
 4. In section source, select main branch and save. 
 5. Wait until GitHub has created your link to the deployed site.

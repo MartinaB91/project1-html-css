@@ -92,7 +92,7 @@ Description: Responsiveness contact form.
 |7.    |	Repeat step 3.				       | Labels shall be placed over inputs and button at bottom. |
 
 ### Test 7
-Description: Footer.
+Description: Function footer.
 
 | Step | Instruction                           | Expected                            |
 |------|---------------------------------------|-------------------------------------|
@@ -113,14 +113,20 @@ Description: Function 404.
 
 | Step	 | Chrome  | Edge    | Opera   |
 |--------|---------|---------|---------|
-| Test 1 |         |         |         |                     
-| Test 2 |         |         |         |                     
-| Test 3 |         |         |         |                     
-| Test 4 |         |         |         |                     
-| Test 5 |         |         |         |                     
-| Test 6 |         |         |         |                     
-| Test 7 |         |         |         |                     
-| Test 8 |         |         |         |                     
+| Test 1 |  Pass   |   Pass  | Pass    | 
+| Test 2 |  Pass   |   Pass  | Pass    |
+| Test 3 |  Pass   |   Pass  | Pass    |
+| Test 4 |  Pass   |   Pass  | Pass    |
+| Test 5 |  Pass   |   Pass  | Pass    |
+| Test 6 |  Pass   |   Pass  | Pass    |
+| Test 7 |  Pass   |   Pass  | Pass    |
+| Test 8 |  Pass   |   Pass  | Pass    |
+                   
+I was not able to get Devtools in Firefox working, i decided to test Firefox on full screen laptop, physical tablet and phone instead. Therefore the test cases has been conducted on the screen size of used devices. The test cases was also tested on phone(Samsung galaxy s20/s21) browsers: Samsung internet and Chrome. All tests passed.                    
 
 ## Validation
+Th code has been validated several times during the development process. Warnings and errors has been fixed when found. The final version has no errors or warnings. 
 
+Validator used for [HTML](https://validator.w3.org/).
+
+Validator used for [CSS](https://jigsaw.w3.org/css-validator/).
