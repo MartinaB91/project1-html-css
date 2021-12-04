@@ -20,6 +20,7 @@
    </head>
    <body>
       <header>
+         <!-- Bootstrap navbar -->
          <nav id="navbar-menu" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                <a class="navbar-brand"></a><!-- Unfixed bug: This has no functional effect, leave as is -->
@@ -43,6 +44,7 @@
             </div>
          </nav>
       </header>
+      <!-- Contains a hero/main image, header and introduction text  -->
       <section id="top-bg-image-wrapper">
          <div id="top-bg-image"></div>
          <h1>Osis Pelargoniums</h1>
@@ -53,9 +55,11 @@
             they said that this one was the last one. Today we have more than 200 different sorts.
          </p>
       </section>
+      <!-- Section that show pictures of several flowers, "Photo wall" -->
       <section id="photo-wall">
          <h2>Photo wall</h2>
          <div id="photo-wall-wrapper">
+            <!-- pic-overlay-container/overlay is used for showing flower name on mouse hover -->
             <div class="pic-overlay-container">
                <img src="assets/images/ambrosius.jpg" alt="Pink pelargonium called Fantasia Ambrosius">
                <div class="overlay">Fantasia Ambrosius</div>
@@ -86,10 +90,12 @@
             </div>
          </div>
       </section>
+      <!-- Describes the processing of pelargoniums in several steps. -->
       <section id="timeline">
          <div class="vertical-line">
             <h2>From seed to flower</h2>
             <div class="timeline-buttons">
+               <!-- Each radio button shows one step in the timeline -->
                <input class="timeline-radio-button" type="radio" id="seed-btn" name="rb-timeline" checked>
                <label class="timline-label" for="seed-btn">Step One</label>
                <div class="timeline-text-wrapper">
@@ -175,6 +181,7 @@
          <!--End vertical-line -->
       </section>
       <footer>
+      <!-- Links to Osis social medias -->
          <h6>Find us on:</h6>
          <ul class="social-networks">
             <li>
