@@ -457,6 +457,17 @@ iframe {
         margin: 8% 10% 0% 10%;
         width: 80%;
     }
+    /* Media queries phone 404 page */
+    #footer-404-page {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #body-404-page {
+        height: 100vh;
+        position: relative;
+    }
 }
 /* End media query 480px */
 
@@ -526,7 +537,17 @@ iframe {
     #submit {
         margin-top: 7em;
     }
+    /* Media queries tablet for 404 page */
+    #footer-404-page {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 
+    #body-404-page {
+        height: 100vh;
+        position: relative;
+    }
 }
 /*End media query 768px */
 

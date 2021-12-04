@@ -107,7 +107,7 @@ This section describes how the site was deployed.
 4. In section source, select main branch and save. 
 5. Wait until GitHub has created your link to the deployed site.
 ## Credits
-
+This section describes things used for building this website. Special thanks to my mentor Reuben Ferrante for great support. 
 #### Code
 [Bootstrap](https://getbootstrap.com/): Used for the navbar and also for icon in timeline.
 
